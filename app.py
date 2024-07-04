@@ -1,4 +1,3 @@
-from dotenv import load_dotenv
 import requests
 from langchain_openai import ChatOpenAI
 from langchain_huggingface import HuggingFaceEmbeddings
@@ -8,7 +7,7 @@ from langchain import hub
 from pydantic import BaseModel
 from langchain.agents import AgentExecutor, create_react_agent, tool
 
-load_dotenv()
+
 
 embeddings = HuggingFaceEmbeddings(
     model_name="sentence-transformers/distiluse-base-multilingual-cased",
