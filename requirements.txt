@@ -1,2 +1,9 @@
-flet
-pyserial
+langchain
+langchain-community
+langchain-openai
+langchain-core
+langchain-huggingface
+langchain-experimental
+faiss-cpu
+torch
+langchainhub
